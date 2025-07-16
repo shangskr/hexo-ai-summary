@@ -1,0 +1,21 @@
+{
+  "name": "hexo-ai-summary-anxiaowai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [
+    "hexo",
+    "hexo-plugin",
+    "chatgpt",
+    "openai",
+    "ai",
+    "summary",
+    "markdown",
+    "blog"
+  ],
+  "author": "anxiaowai",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "p-limit": "^2.3.0"
+  }
+}
