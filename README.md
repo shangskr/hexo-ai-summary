@@ -25,7 +25,7 @@ aisummary:
   token: sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx             # OpenAI 或兼容模型的密钥
   model: hunyuan-standard                                        # 使用模型名称
   summary_field: summary                                         # 摘要字段
-  cover_all: true                                                # 是否启用全部覆盖（既重新生成）
+  cover_all: false                                               # 是否启用全部覆盖（既重新生成）
   concurrency: 2                                                 # 并发处理数
   max_input_length: 3000  # 输入文本长度限制(腾讯推荐2000字以内)
   prompt: "请用简体中文生成一段简洁的摘要，要求：1.长度在80-120字之间 2.包含文章核心观点 3.输出内容开头为“这里小歪AI，这篇文章” 4.不要包含代码和公式"
